@@ -1,0 +1,4 @@
+insert into item (item_id,item_name,item_desc,item_price,port) values (111,'Pen','Red Blue or Black',5.33,0)
+insert into item (item_id,item_name,item_desc,item_price,port) values (222,'Book','200 Pages',18.36,0)
+insert into item (item_id,item_name,item_desc,item_price,port) values (333,'Pencil','HB bold',2.36,0)
+insert into item (item_id,item_name,item_desc,item_price,port) values (444,'Marker','Red Blue or Black',23.22,0)

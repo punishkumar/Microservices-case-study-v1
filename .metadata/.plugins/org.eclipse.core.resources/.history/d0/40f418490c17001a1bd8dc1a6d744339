@@ -1,0 +1,10 @@
+spring.application.name=customer-service
+server.port=8111
+
+spring.rabbitmq.host=localhost	
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=guest
+spring.rabbitmq.password=guest
+
+queue.name=messagequeue
+topic.exchange=messagequeue-exchange

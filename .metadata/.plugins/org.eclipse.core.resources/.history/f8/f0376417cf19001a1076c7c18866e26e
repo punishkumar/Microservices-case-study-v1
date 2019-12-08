@@ -1,0 +1,5 @@
+package com.onlineshopping.microservices.zuulgateway;
+
+public class ZuulLoggingFilter {
+
+}

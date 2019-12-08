@@ -1,0 +1,17 @@
+spring.application.name=sales-order-service
+server.port=8333
+customer-service.ribbon.listOfServers=http://localhost:8111
+item-service.ribbon.listOfServers=http://localhost:8222,http://localhost:8221
+spring.rabbitmq.host=localhost
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=guest
+spring.rabbitmq.password=guest
+
+queue.name=messagequeue
+topic.exchange=messagequeue-exchange
+
+spring.rabbitmq.listener.simple.concurrency=4
+spring.rabbitmq.listener.simple.max-concurrency=8
+spring.rabbitmq.listener.simple.retry.initial-interval=5000
+
+

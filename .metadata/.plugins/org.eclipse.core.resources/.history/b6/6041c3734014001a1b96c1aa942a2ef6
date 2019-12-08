@@ -1,0 +1,5 @@
+package com.onlineshopping.microservices.salesorderservice;
+
+public class EventConsumerConfiguration {
+
+}
