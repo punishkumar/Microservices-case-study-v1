@@ -1,5 +1,0 @@
-package com.onlineshopping.microservices.customerservice;
-
-public class EventProducerConfiguration {
-
-}

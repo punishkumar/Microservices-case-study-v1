@@ -6,34 +6,24 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix="item-service")
 @Component
 public class ItemConfig {
-	private Long itemID;
-	private String itemName;
-	private String itemDesc;
-	private Float itemPrice;
-	public Long getItemID() {
-		return itemID;
+	//private Long itemID;
+	private String defaultItemName;
+	private String defaultItemDesc;
+	//private Float itemPrice;
+	public String getDefaultItemName() {
+		return defaultItemName;
 	}
-	public void setItemID(Long itemID) {
-		this.itemID = itemID;
+	public void setDefaultItemName(String defaultItemName) {
+		this.defaultItemName = defaultItemName;
 	}
-	public String getItemName() {
-		return itemName;
+	public String getDefaultItemDesc() {
+		return defaultItemDesc;
 	}
-	public void setItemName(String itemName) {
-		this.itemName = itemName;
+	public void setDefaultItemDesc(String defaultItemDesc) {
+		this.defaultItemDesc = defaultItemDesc;
 	}
-	public String getItemDesc() {
-		return itemDesc;
-	}
-	public void setItemDesc(String itemDesc) {
-		this.itemDesc = itemDesc;
-	}
-	public Float getItemPrice() {
-		return itemPrice;
-	}
-	public void setItemPrice(Float itemPrice) {
-		this.itemPrice = itemPrice;
-	}
+	
+	
 	
 	
 

@@ -47,7 +47,7 @@ public class ItemController {
 	}
 	
 	public Item fallBackItemDetails(String item) {
-		return new Item(999999999L,itemConfig.getItemName(),itemConfig.getItemDesc(),0.00F);
+		return new Item(999999999L,itemConfig.getDefaultItemName(),itemConfig.getDefaultItemDesc(),0.00F);
 	}
 
 }

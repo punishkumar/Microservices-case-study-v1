@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="item-service"/>
+<aop-project name="zuul-gateway"/>
+<aop-project name="eureka-naming-server"/>
+<aop-project name="spring-cloud-config-server"/>
 <aop-project name="customer-service"/>
+<aop-project name="item-service"/>
 <aop-project name="sales-order-service"/>
 </aop-reference-model>
